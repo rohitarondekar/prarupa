@@ -68,7 +68,7 @@ Being Rails text helpers, all three methods accept the `:safe` option that tells
 Credits
 =======
 
-[David Trasbo](http://github.com/dtrasbo) for making the awesome (official?) plugin [formatize](http://github.com/dtrasbo/formatize) which extracts the helpers without any modification.
+[David Trasbo](http://github.com/dtrasbo) for making the awesome (official?) plugin [formatize](http://github.com/dtrasbo/formatize) which extracts the helpers without any modification. I liberally used his gem as reference.
 
 Todo
 ====
