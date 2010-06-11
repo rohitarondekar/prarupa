@@ -32,8 +32,8 @@ module Prarupa
         ""
       else
         textilized = RedCloth.new(text, options)
-        textilized.to_html.html_safe
-      end
+        textilized.to_html
+      end.html_safe
     end
 
     # Returns the text with all the Textile codes turned into HTML tags,
@@ -85,8 +85,8 @@ module Prarupa
         ""
       else
         markdowned = RDiscount.new(text, *options)
-        markdowned.to_html.chomp.html_safe #used chomp to remove the \n appended by RDiscount
-      end
+        markdowned.to_html.chomp #used chomp to remove the \n appended by RDiscount
+      end.html_safe
     end
   end
 end
