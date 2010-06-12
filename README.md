@@ -1,6 +1,8 @@
 Prarupa
 =======
 
+    Please note that this is neither the official nor the best plugin available for this task. David Trasbo's [formatize](http://github.com/dtrasbo) was the awesome one. I have in fact used it as a reference while making prarupa and hence the two codebases are very very similar. I posted on [RubyFlow](http://www.rubyflow.com) before David and therefore got more watchers and press. So this message is just to set things clear, and hopefully all watchers of this project will start watching & report issues to Formatize. Note that I will continue to maintain prarupa.
+
 Prarupa is plugin for Rails 3 that provides the `textilize`, `textilize_without_paragraph` and `markdown` helpers. These were extracted from Rails and have been modified slightly. Instead of using `BlueCloth` for `markdown`, Prarupa uses `RDiscount` which is supposed to be faster and better maintained. Other minor internal tweaks have been made.
 
 Install
