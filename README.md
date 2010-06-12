@@ -63,7 +63,7 @@ With options:
 To be `:safe`
 ============
 
-Being Rails text helpers, all three methods accept the `:safe` option that tells the helpers that the input text need not be sanitized.
+Being Rails text helpers, all three methods accept the `:safe` option that tells the helpers that the input text need not be escaped.
 
 Credits
 =======

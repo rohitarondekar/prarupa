@@ -26,7 +26,7 @@ module Prarupa
     #
     def textilize(text, *options)
       options ||= [:hard_breaks]
-      text = sanitize(text) unless text.html_safe? || options.delete(:safe)
+      text = h(text) unless text.html_safe? || options.delete(:safe)
 
       if text.blank?
         ""
@@ -79,7 +79,7 @@ module Prarupa
     #   markdown('![The ROR logo](http://rubyonrails.com/images/rails.png "Ruby on Rails")')
     #   # => '<p><img src="http://rubyonrails.com/images/rails.png" alt="The ROR logo" title="Ruby on Rails" /></p>'
     def markdown(text, *options)
-      text = sanitize(text) unless text.html_safe? || options.delete(:safe)
+      text = h(text) unless text.html_safe? || options.delete(:safe)
       
       if text.blank?
         ""
