@@ -1,8 +1,8 @@
 Prarupa
 =======
 
-> Please note that this is neither the official nor the best plugin available for this task. David Trasbo's [formatize](http://github.com/
-> dtrasbo) was the awesome one. I have in fact used it as a reference while making prarupa and hence the two codebases are very very similar.
+> Please note that this is neither the official nor the best plugin available for this task. David Trasbo's [formatize](http://bit.ly/cf6rtE)
+> was the awesome one. I have in fact used it as a reference while making prarupa and hence the two codebases are very very similar.
 > I posted on [RubyFlow](http://www.rubyflow.com) before David and therefore got more watchers and press. So this message is just to set
 > things clear, and hopefully all watchers of this project will start watching & report issues to Formatize. Note that I will continue to
 > maintain prarupa.
