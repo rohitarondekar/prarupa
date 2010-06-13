@@ -25,7 +25,6 @@ module Prarupa
     #   # => "<p>This is worded &lt;strong&gt;strongly&lt;/strong&gt;</p>"
     #
     def textilize(text, *options)
-      options ||= [:hard_breaks]
       text = h(text) unless text.html_safe? || options.delete(:safe)
 
       if text.blank?
